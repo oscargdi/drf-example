@@ -205,6 +205,8 @@ $ source .venv/bin/activate
 
 Create configuration for app launch
 ```bash
+(.venv) $ cd /var/log/
+(.venv) $ mkdir gunicorn
 (.venv) $ cd /etc/supervisor/conf.d/
 (.venv) $ touch supervisor.conf
 (.venv) $ sudo nano supervisor.conf
