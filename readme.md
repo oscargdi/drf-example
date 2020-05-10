@@ -75,6 +75,8 @@ Use the package manager **pip** to install project python packages.
 ```bash
 # Install dependencies
 (.venv) $ pip install djangorestframework 
+# Gunicorn
+(.venv) $ pip install "gunicorn[gevent]"
 # Useful modules
 (.venv) $ pip install pylint
 (.venv) $ pip install autopep8
