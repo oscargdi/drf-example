@@ -277,5 +277,4 @@ Follow CertBot installation guide in this [article](https://certbot.eff.org/lets
 Open Terminal / Command Prompt and run:
 ```bash
 curl -L -X POST 'https://drf.oscargdi.dev' -H 'Content-Type: application/json' --data-raw '{"application": "Django Rest Framework - Sample project", "github": "https://github.com/oscargdi/drf-example.git"}'
-{"application":"Django Rest Framework - Sample project","github":"https://github.com/oscargdi/drf-example.git"}
 ```
